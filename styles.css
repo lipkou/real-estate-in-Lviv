@@ -1,0 +1,15 @@
+body {
+  margin: 45;
+  background-color: #FAF8DA;
+  font-family: 'Open Sans', sans-serif; /* Font from Google Fonts */
+}
+.primary-header {
+  text-align: center;
+}
+.main-heading {
+  font-size: 50px;
+  color: #58428c;
+}
+.town-preview {
+  width: 650px;
+}
