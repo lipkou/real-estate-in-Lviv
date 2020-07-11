@@ -10,6 +10,25 @@ body {
   font-size: 50px;
   color: #58428c;
 }
+.sell-details {
+margin-left: 30px;
+}
+.sell-list {
+  padding-left: 15px;
+  color: #FFC122;
+}
+.sell-name {
+  margin-bottom: 10px;
+}
 .town-preview {
   width: 650px;
+}
+.primary-footer {
+
+  padding: 2px;
+
+  background-color: #277a36;
+
+  text-align: center;
+
 }
