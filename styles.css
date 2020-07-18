@@ -6,12 +6,28 @@ body {
 .primary-header {
   text-align: center;
 }
+.town-preview {
+  width: 650px;
+}
 .main-heading {
   font-size: 50px;
   color: #58428c;
 }
+.sell-section {
+  display: flex; /* Makes the content witin this element flexible */
+  display: -webkit-flex; /* vendor prefix */
+  margin: 50px auto; /* Adds spacing at top of all sections and then centers them */
+  width: 450px; /* approximate width of each section */
+}
+.building {
+  width: 200px;
+}
 .sell-details {
 margin-left: 30px;
+}
+.sell-category-heading {
+  color: #205D76;
+  font-size: 30px;
 }
 .sell-list {
   padding-left: 15px;
@@ -20,15 +36,90 @@ margin-left: 30px;
 .sell-name {
   margin-bottom: 10px;
 }
-.town-preview {
-  width: 650px;
+.sell-link{
+  color: #EA6E2F;
+  font-size: 20px;
+}
+.rent-section{
+  display: flex; /* Makes the content witin this element flexible */
+  display: -webkit-flex; /* vendor prefix */
+  margin: 50px auto; /* Adds spacing at top of all sections and then centers them */
+  width: 450px; /* approximate width of each section */
+}
+.rent-details{
+  margin-left: 30px;
+}
+.rent-category-heading{
+  color: #205D76;
+  font-size: 30px;
+}
+.rent-list{
+  padding-left: 15px;
+  color: #1938ff;
+}
+.rent-name{
+  margin-bottom: 10px;
+}
+.rent-link{
+  color: #05c9f0;
+  font-size: 20px;
+}
+.sell-commerce-section {
+  display: flex; /* Makes the content witin this element flexible */
+  display: -webkit-flex; /* vendor prefix */
+  margin: 50px auto; /* Adds spacing at top of all sections and then centers them */
+  width: 450px; /* approximate width of each section */
+}
+.building {
+  width: 200px;
+}
+.sell-commerce-details {
+margin-left: 30px;
+}
+.sell-commerce-category-heading {
+  color: #205D76;
+  font-size: 30px;
+}
+.sell-commerce-list {
+  padding-left: 15px;
+  color: #FFC122;
+}
+.sell-commerce-name {
+  margin-bottom: 10px;
+}
+.sell-commerce-link{
+  color: #960008;
+  font-size: 20px;
+}
+.rent-commerce-section{
+  display: flex; /* Makes the content witin this element flexible */
+  display: -webkit-flex; /* vendor prefix */
+  margin: 50px auto; /* Adds spacing at top of all sections and then centers them */
+  width: 450px; /* approximate width of each section */
+}
+.rent-commerce-details{
+  margin-left: 30px;
+}
+.rent-commerce-category-heading{
+  color: #205D76;
+  font-size: 30px;
+}
+.rent-commerce-list{
+  padding-left: 15px;
+  color: #1938ff;
+}
+.rent-commerce-name{
+  margin-bottom: 10px;
+}
+.rent-commerce-link{
+  font-size: 20px;
+  color: #00b50c;
 }
 .primary-footer {
-
   padding: 2px;
-
   background-color: #277a36;
-
   text-align: center;
-
+}
+.Gmail-link{
+  font-size: 20px;
 }
